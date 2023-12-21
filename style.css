@@ -1,0 +1,243 @@
+*{
+    padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+
+}
+body{
+    background-image: url("/bacground.png");
+background-repeat:no-repeat;
+background-size: cover;
+}
+ul{
+    width: 100%;
+    display: flex;
+    float:right;
+    justify-content:flex-start;
+    height: 3rem;
+list-style: none;
+background-color: rgb(252, 247, 247);
+box-shadow:  1px 1px 2px 1px rgb(124, 120, 120);
+position: relative;
+}
+
+ul li{
+    margin:15px;
+}
+li a{
+    text-align: uppercase;
+    position: relative;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 18px;
+}
+li a::after{
+content: "";
+bottom: 0;
+margin: auto;
+height: 1.2px;
+width:0%;
+justify-content: center;
+display: flex;
+transition: ease-in-out 0.2s;
+position:absolute;
+background-color: rgb(177, 0, 0);
+
+}
+li a:hover::after{
+  width: 100%;
+    padding: 0.3px;
+}
+table{
+    border-radius: 5px;
+    background-color: aliceblue;
+    border:solid 1px;
+    border-collapse: collapse;
+    width: 90%;
+    margin-left:5%;
+
+}
+tr th{
+
+    background-color: rgb(218, 111, 36);
+    padding:1.5%;
+font-weight: bold;
+
+}
+tr td{
+    padding:1.5%;
+    border:solid 1px;
+
+  
+}
+
+.container-contact{
+   width: 100%; 
+
+    justify-content: center;
+display:flex;
+align-items: center;
+}
+.second-container{
+font-size: 20px;
+padding: 80px;
+
+
+}
+.h2-22{
+
+    color: rgb(236, 76, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+.h2-22:hover{
+    text-decoration: underline;
+    color: rgb(236, 76, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+}
+.p-22{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+color: rgb(255, 255, 255);
+font-size:18px;
+}
+.p-22:hover{
+    text-decoration: underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+color: rgb(255, 255, 255);
+font-size:18px;
+}
+.icon-1{
+    color: rgb(14, 73, 235);
+}
+.icon-2{
+    color: rgb(39, 187, 25);
+}
+.icon-3{
+    color: rgb(233, 233, 233);
+    
+}
+
+.container-all{
+padding:20px;
+justify-content: center;
+display: flex;
+}
+.second-all{
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    width:85%;
+}
+.somphat{
+    width: 33%;
+    position:center;
+}
+.container-text{
+    margin-top:18%;
+ width: 35%;
+ object-fit: cover;
+}
+.h2-topic{
+    color: rgb(224, 101, 18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text-explain{
+    color: white;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.text-explain:hover{
+    color: white;
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.button-container{
+    margin-top: 10px;
+
+
+}
+.button-me{
+    background-color: rgb(255, 91, 31);
+    padding: 1.5%;
+    padding-left: 8.5%;
+    padding-right:7.5%;
+    border-radius: 0.2rem;
+    border:1.2px solid;
+}
+.button-me:hover{
+    background-color: rgb(235, 96, 46);
+    padding: 1.5%;
+    padding-left: 8.5%;
+    padding-right:7.5%;
+    border-radius: 0.2rem;
+    border:1.2px solid;
+}
+.button-free{
+    background-color: rgb(4, 26, 124);
+    padding: 1.5%;
+    padding-left: 8.5%;
+    padding-right:7.5%;
+    border-radius: 0.2rem;
+    border:1.2px black solid ;
+    color: white;
+}
+.button-free:hover{
+    background-color: rgb(24, 24, 24);
+    padding: 1.5%;
+    padding-left: 8.5%;
+    padding-right:7.5%;
+    border-radius: 0.2rem;
+    border:1.2px black solid;
+    color: white;
+}
+.container-video{
+    margin: 5%;
+padding: 2%;
+}
+@media only  screen and (max-width:678px) {
+    .container-all{
+        padding:20px;
+        flex-direction: column;
+        }
+        .second-all{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .somphat{
+    
+            width:100%;
+            position:center;
+        }
+        .container-text{
+            margin-top:-0.2%;
+         width:100%;
+         object-fit: cover;
+        }
+        .h2-topic{
+            color: rgb(224, 101, 18);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .text-explain{
+            color: white;
+            font-size: 17px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+        .button-container{
+            margin-top: 10px;
+        
+        
+        }
+    
+    
+}
+::-webkit-scrollbar-thumb{
+
+}
+::-webkit-scrollbar-track{
+
+}
